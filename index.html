@@ -1,394 +1,809 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Welcome || Aditya Roy</title>
-		<style>
-			.rounded img{
-				border-radius:50%;
-			}
-		</style>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel = "icon" href = "https://cdn1.iconfinder.com/data/icons/web-development-2-9/48/83-512.png" type = "image/x-icon">
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="icon" href="assets/img/aditya2.png">
+        <title>Aditya Roy</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Aditya Roy</a>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="rounded">
-							<img src="images/r1cc.jpg" width="150" height="150">
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Aditya Roy</h1>
-								<p> Programmer || Cuber || Learner </p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#aboutMe"><p style="text-align: center;">About Me</p></a></li>
-								<li><a href="#Education"><p style="text-align: center;">Education</p></a></li>
-								<li><a href="#achievements"><p style="text-align: center;">Co-curricular</p></a></li>
-								<li><a href="#projects"><p style="text-align: center;">Projects</p></a></li>
-								<li><a href="#skillset"><p style="text-align: center;">Skillset</p></a></li>
-								<li><a href="#contact"><p style="text-align: center;">Contact</p></a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
-					</header>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-arrow nav__icon"></i> Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#qualification" class="nav__link">
+                                <i class="uil uil-graduation-cap nav__icon"></i> Qualification
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-mountains-sun nav__icon"></i> Portfolio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-at nav__icon"></i> Contact
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
 
-				<!-- Main -->
-					<div id="main">
+                <div class="nav__btns">
+                    <i class="uil uil-moonset change-theme" id="theme-button"></i>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>  
+        </header>
 
-						<!-- Edu -->
-							<article id="Education">
-								<h2 class="major">Education</h2>
-								<span class="image main"><img src="images/2.jpg" alt="" /></span>
-								<p><b>Secondary School Certificate</b> : 2011 - 2016 : <a href="https://en.wikipedia.org/wiki/Feni_Government_Pilot_High_School">Feni Government Pilot High School</a>.</p>
-								<p><b>Higher Secondary School Certificate</b> : 2016 - 2018 : <a href="https://rajukcollege.net/">Rajuk Uttara Model College.</a></p>
-								<p><b>Bachelor of Science in CSE</b> : 2019 - Present : <a href="https://www.bracu.ac.bd/">BRAC University</a>.</p>
-							</article>
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/aditya-roy-b59ba386/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://github.com/CodenameCypher" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                            <a href="https://facebook.com/2017ROYA02" target="_blank" class="home__social-icon">
+                                <i class="uil uil-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com/__._adi_.__/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-instagram"></i>
+                            </a>
+                        </div>
 
-							<article id="projects">
-								<h2 class="major">Projects</h2>
-								<span class="image main"><img src="images/3.png" alt="" /></span>
-								<p><b>1. Calculator-Using-Tkinter</b><br> GitHub : <a href="https://github.com/CodenameCypher/Calculator-Using-Tkinter">Click here</a>.</p>
-								<p><b>2. Rock-Paper-Scissors-Using-Tkinter</b><br> GitHub : <a href="https://github.com/CodenameCypher/Rock-Paper-Scissors-Using-Tkinter">Click here</a>.</p>
-								<p><b>3. Dice-Rolling-Simulator-Using-Tkinter</b><br> GitHub : <a href="https://github.com/CodenameCypher/Dice-Rolling-Simulator-Using-Tkinter">Click here</a>.</p>
-								<p><b>4. Currency-Converter-Using-Tkinter</b><br> GitHub : <a href="https://github.com/CodenameCypher/Currency-Converter-Using-Tkinter">Click here</a>.</p>
-								<p><b>5. Password-Generator-Using-Tkinter</b><br> GitHub : <a href="https://github.com/CodenameCypher/Password-Generator-Using-Tkinter">Click here</a>.</p>
-								<p><b>6. Space-Invader-Using-Pygame</b><br> GitHub : <a href="https://github.com/CodenameCypher/Space-Invader-Using-Pygame">Click here</a>.</p>
-								<p><b>7. Flappy-Dog-Using-Pygame </b><br> GitHub : <a href="https://github.com/CodenameCypher/Flappy-Dog-Using-Pygame">Click here</a>.</p>
-								<p><b>8. Online Car Showroom using Django </b><br> GitHub : <a href="https://github.com/rafu01/cse370-project">Click here</a>. <br> Site : <a href="https://gearup-bd.herokuapp.com/">Click here</a>.</p>
-								<p><b>9. Memental Health Care </b><br> GitHub : <a href="https://github.com/CodenameCypher/Memental-1">Click here</a>. <br> Site : <a href="https://mementalbd.herokuapp.com/">Click here</a>.</p>
-								<p><b>10. DemoDummy Blog Site </b><br> GitHub : <a href="https://github.com/CodenameCypher/BlogSite_Using_Django">Click here</a>. <br> Site : <a href="https://demodummyblog.herokuapp.com/">Click here</a>.</p>
-								<p><b>11. Starbucks Landing Page using HTML CSS JS </b><br> GitHub : <a href="https://github.com/CodenameCypher/starbucks-landing-page.github.io">Click here</a>. <br> Site : <a href="https://codenamecypher.github.io/starbucks-landing-page.github.io/">Click here</a>.</p>
-								<p><b>12. Simple Profile Card using HTML CSS </b><br> GitHub : <a href="https://github.com/CodenameCypher/profile-card.github.io">Click here</a>. <br> Site : <a href="https://codenamecypher.github.io/profile-card.github.io/">Click here</a>.</p>
-								<p><b>13. Huddle Landing Page using HTML CSS </b><br> GitHub : <a href="https://github.com/CodenameCypher/huddle-landing-page.github.io">Click here</a>. <br> Site : <a href="https://codenamecypher.github.io/huddle-landing-page.github.io/">Click here</a>.</p>
-								<p><b>14. Social Proof Page using HTML CSS </b><br> GitHub : <a href="https://github.com/CodenameCypher/socialproof.github.io">Click here</a>. <br> Site : <a href="https://codenamecypher.github.io/socialproof.github.io/">Click here</a>.</p>
-								<p><b>15. Functional To-Do App using HTML CSS JS </b><br> GitHub : <a href="https://github.com/CodenameCypher/todo.github.io">Click here</a>. <br> Site : <a href="https://codenamecypher.github.io/todo.github.io">Click here</a>.</p>
-							</article>
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home__blob-img" x='-35' y='-120' xlink:href="assets/img/aditya1.png"/>
+                                </g>
+                            </svg>
+                        </div>
 
-						<!-- About Me -->
-							<article id="aboutMe">
-								<h2 class="major">About Me</h2>
-								<span class="image main"><img src="images/44.jpg" alt="" /></span>
-								<p>I am from Dhaka, Bangladesh. I am currently doing my graduation from <a href="https://www.bracu.ac.bd/">BRAC University</a> majoring in <a href="https://www.bracu.ac.bd/academics/departments/computer-science-and-engineering">Computer Science and Engineering</a>.</p>
-								<p>There are a lot of things which I find as my hobbies. I love watching movies, tv and web series, coding etc. Solving rubik's cube and studying CSE has always been a dream. I am also very fond of gadgets like computers, phones, drones etc.</p>
-								<p>That's all for now. Keep an eye on the site for further updates. Cheers!XD</p>
-							</article>
+                        <div class="home__data">
+                            <h1 class="home__title">Hello there!<br>This is Aditya.</h1>
+                            <h3 class="home__subtitle">Programmer || Developer</h3>
+                            <a href="#contact" class="button button--flex">
+                                <i class="uil uil-at button_icon"></i> Contact Me
+                            </a>
+                        </div>
+                    </div>
 
-						<!-- Achievments // Co-curricular -->
-							<article id="achievements">
-								<h2 class="major">Co-curricular Activities</h2>
-								<span class="image main"><img src="images/1.jpg" alt="" /></span>
-								<p><b><a href="https://www.thedailystar.net/shout/bulletin-board/news/robu-marks-the-ending-joyjatra50-techfest-2069553">JoyJatra'50 Techfest</a></b><br>Volunteer</p>
-								<p><b><a href="https://traction.robu-lab.org/techbizz/">Traction 2020 : TechBizz</a></b><br>Volunteer</p>
-								<p><b><a href="https://www.bracu.ac.bd/club-forum/robotics-club-brac-university">Robotics Club of BRAC University</a></b><br>Junior Executive, Department of Strategic Planning <br> <small>August 2021 - Present</small></p>
-								<p><b><a href="https://www.worldcubeassociation.org/competitions/BangladeshCubingFiesta2017">Bangladesh Cubing Fiesta 2017</a></b><br>Participant in An International Cubing Event<br>World Cubing Association recognition: <a href="https://www.worldcubeassociation.org/persons/2017ROYA027">Click Here</a>.</p>
-								<p><b>Bangladesh Math Olympiad Cube Competition</b><br>2 Times Regional Champion</p>
-								<p><b>Coursera : Using Python to Interact with the Operating System</b><br>Certificate: <a href="https://coursera.org/share/323a89abfe357f01d9ba7f5ef5197740">Click here</a>.<br>Completed on: April 29, 2020.</p>
-								<p><b>Coursera : Data Structures and Performance</b><br>Certificate: <a href="https://coursera.org/share/23156bb39a278db27e48a292bc487fb2">Click here</a>.<br>Completed on: May 18, 2020.</p>
-								<p><b>Coursera : Python Data Structures</b><br>Certificate: <a href="https://coursera.org/share/8e53ef4a3cd4ee32c7ad027638cc8363">Click here</a>.<br>Completed on: April 9, 2020.</p>
-								<p><b>Coursera : Programming for Everybody (Getting Started with Python)</b><br>Certificate: <a href="https://coursera.org/share/9515063181261457a7f164fdfc41787a">Click here</a>.<br>Completed on: April 5, 2020.</p>
-								<p><b>Coursera : Number Theory and Cryptography</b><br>Certificate: <a href="https://coursera.org/share/ca91dac76e6b8fd6cb20cd6899de4e6f">Click here</a>.<br>Completed on: June 7, 2020.</p>
-							</article>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll Down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
 
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle"></span>
 
-							<article id="skillset">
-								<h2 class="major">Skillset</h2>
-								<span class="image main"><img src="images/5.png" alt="" /></span>
-								<ul class="icons" style="text-align:left;">
-									<li><a href="https://www.java.com/en/" class="fab fa-java"><span class="label"></span></a></li><li>Java</li><br><br>
-									<li><a href="https://www.python.org/" class="fab fa-python"><span class="label"></span></a></li><li>Python & Django</li><br><br>
-									<li><a href="" class="fab fa-html5"><span class="label"></span></a></li><li>HTML</li><br><br>
-									<li><a href="" class="fab fa-css3"><span class="label"></span></a></li><li>CSS</li><br><br>
-									<li><a href="https://www.microsoft.com/en/microsoft-365/word" class="far fa-file-word"><span class="label"></span></a></li><li>Microsoft Word</li><br><br>
-									<li><a href="https://www.microsoft.com/en/microsoft-365/excel" class="far fa-file-excel"><span class="label"></span></a></li><li>Microsoft Excel</li><br><br>
-									<li><a href="https://www.microsoft.com/en/microsoft-365/powerpoint" class="far fa-file-powerpoint"><span class="label"></span></a></li><li>Microsoft Powerpoint</li><br><br>
-									<li><a href="https://github.com" class="icon brands fa-github"><span class="label"></span></a></li><li>GitHub</li><br><br>
-								</ul>
-							</article>
+                <div class="about__container container grid">
+                    <img src="assets/img/about_new.png" alt="" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description" style="text-align: justify;">I am from Dhaka, Bangladesh and currently doing my graduation from BRAC University majoring in Computer Science and Engineering. Making my path to the technology industry and contributing something to it have been always my dream and hopefully I am living it!</p>
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">
+                                    02+
+                                </span>
+                                <span class="about__info-name">
+                                    Years <br> Experience
+                                </span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">
+                                    15+
+                                </span>
+                                <span class="about__info-name">
+                                    Completed <br> Projects
+                                </span>
+                            </div>
+                            <!-- <div>
+                                <span class="about__info-title">
+                                    08+
+                                </span>
+                                <span class="about__info-name">
+                                    Companies <br> Worked
+                                </span>
+                            </div> -->
+                        </div>
 
-						<!-- Contact -->
-							<article id="contact">
-								<h2 style="text-align:center">Contact</h2>
-								
-								<ul class="icons" style="text-align:center;">
-									<li><a href="mailto:aditya.roy@g.bracu.ac.bd" class="fas fa-at"><span class="label"></span></a></li>
-									<li><a href="https://www.Facebook.com/2017roya02" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="https://www.instagram.com/__._adi_.__/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-                                    <li><a href="https://www.linkedin.com/in/aditya-roy-b59ba386/" class="fab fa-linkedin"><span class="label"></span></a></li>
-									<li><a href="https://github.com/CodenameCypher" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/Aditya CV.pdf" class="button button--flex">
+                                Download CV <i class="uil uil-import button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                
 
-								</ul>
-							</article>
+            </section>
 
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">Expertise</span>
 
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
+                <div class="skills_container container grid">
+                    <div>
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title">Frontend</h1>
+                                    <span class="skills__subtitle">Experience of 1 year</span>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
 
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
+                            </div>
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__number">95%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__html">
 
-								<section>
-									<h3 class="major">Lists</h3>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__css">
 
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__number">50%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__js">
 
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-code-branch skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title">Backend</h1>
+                                    <span class="skills__subtitle">Experience of 1.5 years</span>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
 
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
+                            </div>
 
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Django</h3>
+                                        <span class="skills__number">95%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__django">
 
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">SQLite</h3>
+                                        <span class="skills__number">95%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__sqlite">
 
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">MySQL</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__mysql">
 
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">PostGRE SQL</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__pg">
 
-							</article>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Heroku</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__heroku">
 
-					</div>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; 2020. All Rights Reserved by <b>Aditya Roy</b></p>
-					</footer>
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-servers skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title">Others</h1>
+                                    <span class="skills__subtitle"></span>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
 
-			</div>
+                            </div>
 
-		<!-- BG -->
-			<div id="bg"></div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__number">95%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__django">
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Java</h3>
+                                        <span class="skills__number">95%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__sqlite">
 
-	</body>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">C++</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__mysql">
+
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Git</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__pg">
+
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Microsoft Office</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__mysql">
+
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">System Analysis</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__css"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section" id="qualification">
+                <h2 class="section__title">Qualification</h2>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex">
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Timeline
+                        </div>
+                    </div>
+
+                    <div class="qualification__sections">
+                        <!-- content 1 -->
+                        <div class="qualification__content" data-content-id="education">
+
+                            <!-- qualification 1 -->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__data"><a href="https://www.facebook.com/BRACU.Robotics.Club/" style="text-decoration: none;">Robotics Club of BRAC University</a></h3>
+                                    <span class="qualification__subtitle">Junior Executive</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        August 2020 - Present
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <!-- qualification 2 -->
+                            <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification__data"><a href="https://www.bracu.ac.bd/" style="text-decoration: none;">BRAC University</a></h3>
+                                    <span class="qualification__subtitle">Computer Science and Engineering</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2019 - Present
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <!-- qualification 2 -->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__data"><a href="https://rajukcollege.net/" style="text-decoration: none;">Rajuk Uttara Model College</a></h3>
+                                    <span class="qualification__subtitle">HSC</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2016 - 2018
+                                    </div>
+
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            
+                            <!-- qualification 3 -->
+                            <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <!-- <span class="qualification__line"></span> -->
+                                    <span class="qualification__rounder"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification__data">Feni Govt. Pilot High School</h3>
+                                    <span class="qualification__subtitle">SSC</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2011 - 2016
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <!-- <section class="portfolio section" id="services">
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">Most Recent Work(s)</span>
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <div class="portfolio__title">DemoDummy Blog Site</div>
+                                <p class="portfolio__description">Description Goes Here</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <div class="portfolio__title">DemoDummy Blog Site</div>
+                                <p class="portfolio__description">Description Goes Here</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <div class="portfolio__title">DemoDummy Blog Site</div>
+                                <p class="portfolio__description">Description Goes Here</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </section> -->
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">Most Recent Work(s)</span>
+
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- portfolio1 -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <div class="portfolio__title">Daily Dose of SP</div>
+                                <p class="portfolio__description">A blogging site which is fully functional made with Django Framework for Department of Strategic Planning, Robotics Club of BRAC University.</p>
+                                <a href="https://dailydoseofsp.herokuapp.com/" class="button button--flex button--small portfolio__button" target="_blank">
+                                    Demo <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- portfolio2 -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <div class="portfolio__title">Memental Health Care</div>
+                                <p class="portfolio__description">A mental health care site using Django Framework where users and doctors can communicate in a much easier way.</p>
+                                <a href="https://mementalbd.herokuapp.com/" class="button button--flex button--small portfolio__button" target="_blank">
+                                    Demo <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- portfolio3 -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <div class="portfolio__title">Gear Up</div>
+                                <p class="portfolio__description">A fully functional e-car showroom using Django Framework.</p>
+                                <a href="https://gearup-bd.herokuapp.com/" class="button button--flex button--small portfolio__button" target="_blank">
+                                    Demo <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- portfolio1 -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="https://i.pinimg.com/originals/43/28/c3/4328c30611e0c3a5556fa1d4cb35dae7.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <div class="portfolio__title">Calculator Using Tkinter</div>
+                                <p class="portfolio__description">A basic calculator created while learning the Tkinter library of Python.</p>
+                                <a href="https://github.com/CodenameCypher/Calculator-Using-Tkinter" class="button button--flex button--small portfolio__button" target="_blank">
+                                    Github <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- portfolio2 -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="https://static.vecteezy.com/system/resources/previews/000/691/489/non_2x/retro-offset-rock-paper-scissors-icons-vector.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <div class="portfolio__title">Rock-Paper-Scissors Using Tkinter</div>
+                                <p class="portfolio__description">Fun project using Tkinter library from Python.</p>
+                                <a href="https://github.com/CodenameCypher/Rock-Paper-Scissors-Using-Tkinter" class="button button--flex button--small portfolio__button" target="_blank">
+                                    Github <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- portfolio3 -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="https://image.flaticon.com/icons/png/512/229/229800.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <div class="portfolio__title">Dice-Rolling-Simulator-Using-Tkinter</div>
+                                <p class="portfolio__description">Fun project using Tkinter library from Python basically to know more about the library.</p>
+                                <a href="https://github.com/CodenameCypher/Dice-Rolling-Simulator-Using-Tkinter" class="button button--flex button--small portfolio__button" target="_blank">
+                                    Github <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- portfolio1 -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="https://image.flaticon.com/icons/png/512/65/65714.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <div class="portfolio__title">Currency-Converter-Using-Tkinter</div>
+                                <p class="portfolio__description">Fun project using Tkinter library from Python basically to know more about the library.</p>
+                                <a href="https://github.com/CodenameCypher/Currency-Converter-Using-Tkinter" class="button button--flex button--small portfolio__button" target="_blank">
+                                    Github <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- portfolio2 -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="https://www.blazeguard.com.au/media/2020/10/password.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <div class="portfolio__title">Password-Generator-Using-Tkinter</div>
+                                <p class="portfolio__description"></p>
+                                <a href="https://github.com/CodenameCypher/Password-Generator-Using-Tkinter" class="button button--flex button--small portfolio__button" target="_blank">
+                                    Github <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- portfolio3 -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="https://github.com/codenamecypher/Space-Invader-Using-Pygame/raw/main/images/preview.PNG?raw=true" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <div class="portfolio__title">Space-Invader-Using-Pygame</div>
+                                <p class="portfolio__description">Traditional Space Invader built with the help of Pygame.</p>
+                                <a href="https://github.com/CodenameCypher/Space-Invader-Using-Pygame" class="button button--flex button--small portfolio__button" target="_blank">
+                                    Github <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- portfolio1 -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="https://github.com/codenamecypher/Flappy-Dog-Using-Pygame/raw/main/images/preview.PNG?raw=true" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <div class="portfolio__title">Flappy-Dog-Using-Pygame</div>
+                                <p class="portfolio__description">Flappy bird but DOG with Pygame. :3</p>
+                                <a href="https://github.com/CodenameCypher/Space-Invader-Using-Pygame" class="button button--flex button--small portfolio__button" target="_blank">
+                                    Github <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- portfolio2 -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="https://i.ytimg.com/vi/0MFfXSTjPAs/maxresdefault.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <div class="portfolio__title">Starbucks Landing Page using HTML CSS JS</div>
+                                <p class="portfolio__description"></p>
+                                <a href="https://codenamecypher.github.io/starbucks-landing-page.github.io/" class="button button--flex button--small portfolio__button" target="_blank">
+                                    Demo <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- portfolio3 -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="https://i.ytimg.com/vi/0MFfXSTjPAs/maxresdefault.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <div class="portfolio__title">Simple Profile Card using HTML CSS</div>
+                                <p class="portfolio__description"></p>
+                                <a href="https://codenamecypher.github.io/profile-card.github.io/" class="button button--flex button--small portfolio__button" target="_blank">
+                                    Demo <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- portfolio1 -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="https://i.ytimg.com/vi/0MFfXSTjPAs/maxresdefault.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <div class="portfolio__title">Huddle Landing Page using HTML CSS</div>
+                                <p class="portfolio__description"></p>
+                                <a href="https://codenamecypher.github.io/huddle-landing-page.github.io/" class="button button--flex button--small portfolio__button" target="_blank">
+                                    Demo <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- portfolio2 -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="https://i.ytimg.com/vi/0MFfXSTjPAs/maxresdefault.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <div class="portfolio__title">Social Proof Page using HTML CSS</div>
+                                <p class="portfolio__description"></p>
+                                <a href="https://codenamecypher.github.io/socialproof.github.io/" class="button button--flex button--small portfolio__button" target="_blank">
+                                    Demo <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- portfolio3 -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="https://i.ytimg.com/vi/0MFfXSTjPAs/maxresdefault.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <div class="portfolio__title">Functional To-Do App using HTML CSS JS</div>
+                                <p class="portfolio__description"></p>
+                                <a href="https://codenamecypher.github.io/todo.github.io/" class="button button--flex button--small portfolio__button" target="_blank">
+                                    Demo <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </section>
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get in touch</span>
+
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone-alt contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Call Me</h3>
+                                <span class="contact__subtitle">+8801531735542</span>
+                            </div>
+                        </div>
+                        <div class="contact__information">
+                            <i class="uil uil-envelope-upload contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle"><a href="mailto:aditya.roy@g.bracu.ac.bd" style="text-decoration: none; color: var(--hue-color), 8%, 65%;">aditya.roy@g.bracu.ac.bd</a></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="https://postmail.invotes.com/send" method="post" id="email_form" class="grid contact__form">
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input name="subject" type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="text" cols="0" rows="7" type="text" class="contact__input"></textarea>
+                        </div>
+                        <!-- replace value with your access token -->
+                        <input type="hidden" name="access_token" value="42pc6zonkh121qwyxiucof7d" />
+
+                        <input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
+                        <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
+                        <input id="submit_form" type="submit" value="Send Message" class="button button--flex" style="width: max-content; box-shadow: none;"/>
+                    </form>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Aditya</h1>
+                        <span class="footer__subtitle">Computer Engineer</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#about" class="footer__link">About me</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contact me</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.facebook.com/2017ROYA02" target="_blank" class="footer__social"><i class="uil uil-facebook-f"></i></a>
+                        <a href="https://github.com/CodenameCypher" target="_blank" class="footer__social"><i class="uil uil-github-alt"></i></a>
+                        <a href="https://www.linkedin.com/in/aditya-roy-b59ba386/" target="_blank" class="footer__social"><i class="uil uil-linkedin-alt"></i></a>
+                        <a href="https://www.instagram.com/__._adi_.__/" target="_blank" class="footer__social"><i class="uil uil-instagram"></i></a>
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169; 2021. All Rights Reserved.</p>
+            </div>
+            
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#home" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
