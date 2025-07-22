@@ -593,7 +593,7 @@ img {
 }
 
 .portfolio__img {
-  width: 265px;
+  width: 250px;
   border-radius: 0.5rem;
   justify-self: center;
 }
@@ -962,7 +962,7 @@ img {
   }
 
   .portfolio__img {
-    width: 320px;
+    width: 250px;
   }
 
   .portfolio__content {
